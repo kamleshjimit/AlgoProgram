@@ -16,7 +16,9 @@ namespace MySorting
 
             //TreeAlogs();
 
-            FindDupTrees();
+            //FindDupTrees();
+
+
         }
 
         static void FindDuplicateSubtrees()
@@ -56,7 +58,7 @@ namespace MySorting
         {
             Tree bst = GetBST();
 
-            Tree result = TreeExt.FindDuplicateSubtrees(bst);
+           // var result = TreeExt.FindDuplicateSubtrees(bst);
 
 
         }
