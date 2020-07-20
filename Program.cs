@@ -18,7 +18,13 @@ namespace MySorting
 
             //FindDupTrees();
 
+            Console.WriteLine(Average(2, 1));
+        }
 
+        public static double Average(int a, int b)
+        {
+            double c = a + b;
+            return  (c / 2);
         }
 
         static void FindDuplicateSubtrees()
